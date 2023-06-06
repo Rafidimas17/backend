@@ -7,7 +7,7 @@ const mongoose=require('mongoose')
 const methodOverride=require('method-override')
 const session=require('express-session')
 const flash=require('connect-flash')
-mongoose.connect("mongodb://127.0.0.1:27017/db_cakrawala",{
+mongoose.connect("mongodb+srv://bendosiap45:d8dP8UKiBJn6NBLC@cluster0.yzlgzli.mongodb.net/?retryWrites=true&w=majoritya",{
   useNewUrlParser: true,
   useCreateIndex: true,
   useFindAndModify: true,
